@@ -1,0 +1,117 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do RISCV_SingleCycle_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle {C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/DataMemory.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DataMemory
+# 
+# Top level modules:
+# 	DataMemory
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle {C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ALUControl.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALUControl
+# 
+# Top level modules:
+# 	ALUControl
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle {C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle {C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RegisterFile.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle {C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RISCV_SingleCycle.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module RISCV_SingleCycle
+# 
+# Top level modules:
+# 	RISCV_SingleCycle
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle {C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ImmediateGenerator.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ImmediateGenerator
+# 
+# Top level modules:
+# 	ImmediateGenerator
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle {C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/Mux21_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Mux21_32bit
+# 
+# Top level modules:
+# 	Mux21_32bit
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle {C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ControlUnit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ControlUnit
+# 
+# Top level modules:
+# 	ControlUnit
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle {C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/Datapath.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle {C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/PC.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle {C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/BranchComp.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module BranchComp
+# 
+# Top level modules:
+# 	BranchComp
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle {C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/FullDatapath.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module FullDatapath
+# 
+# Top level modules:
+# 	FullDatapath
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle {C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RISCV_SingleCycle_testbench.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module RISCV_SingleCycle_testbench
+# 
+# Top level modules:
+# 	RISCV_SingleCycle_testbench
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  RISCV_SingleCycle_testbench
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps RISCV_SingleCycle_testbench 
+# Loading work.RISCV_SingleCycle_testbench
+# Loading work.RISCV_SingleCycle
+# Loading work.ControlUnit
+# Loading work.ALUControl
+# Loading work.FullDatapath
+# Loading work.PC
+# Loading work.Datapath
+# Loading work.RegisterFile
+# Loading work.ImmediateGenerator
+# Loading work.Mux21_32bit
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.BranchComp
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module RISCV_SingleCycle_testbench at C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RISCV_SingleCycle_testbench.v line 109
+# Simulation Breakpoint: Break in Module RISCV_SingleCycle_testbench at C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RISCV_SingleCycle_testbench.v line 109
+# MACRO ./RISCV_SingleCycle_run_msim_rtl_verilog.do PAUSED at line 28
