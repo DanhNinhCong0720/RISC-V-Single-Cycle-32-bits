@@ -1,0 +1,375 @@
+Analysis & Synthesis report for RISCV_SingleCycle
+Fri Dec 29 01:44:47 2023
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Port Connectivity Checks: "FullDatapath:Datapath"
+ 10. Elapsed Time Per Partition
+ 11. Analysis & Synthesis Messages
+ 12. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Fri Dec 29 01:44:47 2023           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; RISCV_SingleCycle                               ;
+; Top-level Entity Name              ; RISCV_SingleCycle                               ;
+; Family                             ; Cyclone II                                      ;
+; Total logic elements               ; 0                                               ;
+;     Total combinational functions  ; 0                                               ;
+;     Dedicated logic registers      ; 0                                               ;
+; Total registers                    ; 0                                               ;
+; Total pins                         ; 34                                              ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP2C35F672C6       ;                    ;
+; Top-level entity name                                                      ; RISCV_SingleCycle  ; RISCV_SingleCycle  ;
+; Family name                                                                ; Cyclone II         ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; Off                ; Off                ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 16     ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                  ; Library ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------+---------+
+; DataMemory.v                     ; yes             ; User Verilog HDL File  ; C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/DataMemory.v         ;         ;
+; ALUControl.v                     ; yes             ; User Verilog HDL File  ; C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ALUControl.v         ;         ;
+; ALU.v                            ; yes             ; User Verilog HDL File  ; C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ALU.v                ;         ;
+; RegisterFile.v                   ; yes             ; User Verilog HDL File  ; C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RegisterFile.v       ;         ;
+; RISCV_SingleCycle.v              ; yes             ; User Verilog HDL File  ; C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RISCV_SingleCycle.v  ;         ;
+; ImmediateGenerator.v             ; yes             ; User Verilog HDL File  ; C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ImmediateGenerator.v ;         ;
+; Mux21_32bit.v                    ; yes             ; User Verilog HDL File  ; C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/Mux21_32bit.v        ;         ;
+; ControlUnit.v                    ; yes             ; User Verilog HDL File  ; C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ControlUnit.v        ;         ;
+; Datapath.v                       ; yes             ; User Verilog HDL File  ; C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/Datapath.v           ;         ;
+; PC.v                             ; yes             ; User Verilog HDL File  ; C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/PC.v                 ;         ;
+; BranchComp.v                     ; yes             ; User Verilog HDL File  ; C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/BranchComp.v         ;         ;
+; FullDatapath.v                   ; yes             ; User Verilog HDL File  ; C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/FullDatapath.v       ;         ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------+---------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+;                                             ;       ;
+; Total combinational functions               ; 0     ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 0     ;
+;     -- 3 input functions                    ; 0     ;
+;     -- <=2 input functions                  ; 0     ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 0     ;
+;     -- arithmetic mode                      ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 0     ;
+;     -- Dedicated logic registers            ; 0     ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 34    ;
+; Embedded Multiplier 9-bit elements          ; 0     ;
++---------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; |RISCV_SingleCycle         ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 34   ; 0            ; |RISCV_SingleCycle  ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "FullDatapath:Datapath"                                                              ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Sign ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; Zero ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Fri Dec 29 01:44:46 2023
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off RISCV_SingleCycle -c RISCV_SingleCycle
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 1 design units, including 1 entities, in source file datamemory.v
+    Info (12023): Found entity 1: DataMemory
+Info (12021): Found 1 design units, including 1 entities, in source file alucontrol.v
+    Info (12023): Found entity 1: ALUControl
+Info (12021): Found 1 design units, including 1 entities, in source file alu.v
+    Info (12023): Found entity 1: ALU
+Info (12021): Found 1 design units, including 1 entities, in source file registerfile.v
+    Info (12023): Found entity 1: RegisterFile
+Info (12021): Found 1 design units, including 1 entities, in source file riscv_singlecycle.v
+    Info (12023): Found entity 1: RISCV_SingleCycle
+Info (12021): Found 1 design units, including 1 entities, in source file immediategenerator.v
+    Info (12023): Found entity 1: ImmediateGenerator
+Info (12021): Found 1 design units, including 1 entities, in source file mux21_32bit.v
+    Info (12023): Found entity 1: Mux21_32bit
+Info (12021): Found 1 design units, including 1 entities, in source file controlunit.v
+    Info (12023): Found entity 1: ControlUnit
+Info (12021): Found 1 design units, including 1 entities, in source file datapath.v
+    Info (12023): Found entity 1: Datapath
+Info (12021): Found 1 design units, including 1 entities, in source file datapath_testbench.v
+    Info (12023): Found entity 1: Datapath_testbench
+Info (12021): Found 1 design units, including 1 entities, in source file pc.v
+    Info (12023): Found entity 1: PC
+Info (12021): Found 1 design units, including 1 entities, in source file branchcomp.v
+    Info (12023): Found entity 1: BranchComp
+Info (12021): Found 1 design units, including 1 entities, in source file fulldatapath.v
+    Info (12023): Found entity 1: FullDatapath
+Info (12021): Found 1 design units, including 1 entities, in source file fulldatapath_testbench.v
+    Info (12023): Found entity 1: FullDatapath_testbench
+Info (12021): Found 1 design units, including 1 entities, in source file riscv_singlecycle_testbench.v
+    Info (12023): Found entity 1: RISCV_SingleCycle_testbench
+Info (12127): Elaborating entity "RISCV_SingleCycle" for the top level hierarchy
+Info (12128): Elaborating entity "ControlUnit" for hierarchy "ControlUnit:Controller"
+Warning (10270): Verilog HDL Case Statement warning at ControlUnit.v(8): incomplete case statement has no default case item
+Warning (10240): Verilog HDL Always Construct warning at ControlUnit.v(8): inferring latch(es) for variable "Branch", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at ControlUnit.v(8): inferring latch(es) for variable "RegWrite", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at ControlUnit.v(8): inferring latch(es) for variable "ALUSrc", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at ControlUnit.v(8): inferring latch(es) for variable "MemWrite", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at ControlUnit.v(8): inferring latch(es) for variable "MemRead", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at ControlUnit.v(8): inferring latch(es) for variable "MemToReg", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at ControlUnit.v(8): inferring latch(es) for variable "ALUOp", which holds its previous value in one or more paths through the always construct
+Info (10041): Inferred latch for "ALUOp[0]" at ControlUnit.v(8)
+Info (10041): Inferred latch for "ALUOp[1]" at ControlUnit.v(8)
+Info (10041): Inferred latch for "ALUOp[2]" at ControlUnit.v(8)
+Info (10041): Inferred latch for "MemToReg" at ControlUnit.v(8)
+Info (10041): Inferred latch for "MemRead" at ControlUnit.v(8)
+Info (10041): Inferred latch for "MemWrite" at ControlUnit.v(8)
+Info (10041): Inferred latch for "ALUSrc" at ControlUnit.v(8)
+Info (10041): Inferred latch for "RegWrite" at ControlUnit.v(8)
+Info (10041): Inferred latch for "Branch" at ControlUnit.v(8)
+Info (12128): Elaborating entity "ALUControl" for hierarchy "ALUControl:ALUcontrol"
+Warning (10270): Verilog HDL Case Statement warning at ALUControl.v(9): incomplete case statement has no default case item
+Warning (10240): Verilog HDL Always Construct warning at ALUControl.v(9): inferring latch(es) for variable "ALUControl", which holds its previous value in one or more paths through the always construct
+Info (10041): Inferred latch for "ALUControl[0]" at ALUControl.v(9)
+Info (10041): Inferred latch for "ALUControl[1]" at ALUControl.v(9)
+Info (10041): Inferred latch for "ALUControl[2]" at ALUControl.v(9)
+Info (10041): Inferred latch for "ALUControl[3]" at ALUControl.v(9)
+Info (12128): Elaborating entity "FullDatapath" for hierarchy "FullDatapath:Datapath"
+Info (12128): Elaborating entity "PC" for hierarchy "FullDatapath:Datapath|PC:PC"
+Info (12128): Elaborating entity "Datapath" for hierarchy "FullDatapath:Datapath|Datapath:DTPath"
+Info (12128): Elaborating entity "RegisterFile" for hierarchy "FullDatapath:Datapath|Datapath:DTPath|RegisterFile:RF"
+Info (12128): Elaborating entity "ImmediateGenerator" for hierarchy "FullDatapath:Datapath|Datapath:DTPath|ImmediateGenerator:ImmGen"
+Info (12128): Elaborating entity "Mux21_32bit" for hierarchy "FullDatapath:Datapath|Datapath:DTPath|Mux21_32bit:Mux1"
+Info (12128): Elaborating entity "ALU" for hierarchy "FullDatapath:Datapath|Datapath:DTPath|ALU:Alu"
+Info (12128): Elaborating entity "DataMemory" for hierarchy "FullDatapath:Datapath|Datapath:DTPath|DataMemory:DataMem"
+Info (12128): Elaborating entity "BranchComp" for hierarchy "FullDatapath:Datapath|BranchComp:BC"
+Info (144001): Generated suppressed messages file C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/output_files/RISCV_SingleCycle.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 34 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "Instruction[0]"
+    Warning (15610): No output dependent on input pin "Instruction[1]"
+    Warning (15610): No output dependent on input pin "Instruction[2]"
+    Warning (15610): No output dependent on input pin "Instruction[3]"
+    Warning (15610): No output dependent on input pin "Instruction[4]"
+    Warning (15610): No output dependent on input pin "Instruction[5]"
+    Warning (15610): No output dependent on input pin "Instruction[6]"
+    Warning (15610): No output dependent on input pin "Instruction[7]"
+    Warning (15610): No output dependent on input pin "Instruction[8]"
+    Warning (15610): No output dependent on input pin "Instruction[9]"
+    Warning (15610): No output dependent on input pin "Instruction[10]"
+    Warning (15610): No output dependent on input pin "Instruction[11]"
+    Warning (15610): No output dependent on input pin "Instruction[12]"
+    Warning (15610): No output dependent on input pin "Instruction[13]"
+    Warning (15610): No output dependent on input pin "Instruction[14]"
+    Warning (15610): No output dependent on input pin "Instruction[15]"
+    Warning (15610): No output dependent on input pin "Instruction[16]"
+    Warning (15610): No output dependent on input pin "Instruction[17]"
+    Warning (15610): No output dependent on input pin "Instruction[18]"
+    Warning (15610): No output dependent on input pin "Instruction[19]"
+    Warning (15610): No output dependent on input pin "Instruction[20]"
+    Warning (15610): No output dependent on input pin "Instruction[21]"
+    Warning (15610): No output dependent on input pin "Instruction[22]"
+    Warning (15610): No output dependent on input pin "Instruction[23]"
+    Warning (15610): No output dependent on input pin "Instruction[24]"
+    Warning (15610): No output dependent on input pin "Instruction[25]"
+    Warning (15610): No output dependent on input pin "Instruction[26]"
+    Warning (15610): No output dependent on input pin "Instruction[27]"
+    Warning (15610): No output dependent on input pin "Instruction[28]"
+    Warning (15610): No output dependent on input pin "Instruction[29]"
+    Warning (15610): No output dependent on input pin "Instruction[30]"
+    Warning (15610): No output dependent on input pin "Instruction[31]"
+    Warning (15610): No output dependent on input pin "CLK"
+    Warning (15610): No output dependent on input pin "ResetPC"
+Info (21057): Implemented 34 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 34 input pins
+    Info (21059): Implemented 0 output pins
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 46 warnings
+    Info: Peak virtual memory: 4599 megabytes
+    Info: Processing ended: Fri Dec 29 01:44:47 2023
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/output_files/RISCV_SingleCycle.map.smsg.
+
+
