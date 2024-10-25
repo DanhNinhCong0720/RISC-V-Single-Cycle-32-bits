@@ -1,0 +1,278 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\projectIC\CE213\DoAn\RISCV_SingleCycle\simulation\modelsim
+vALU
+IMX`n@A^:T4@jV=[VJn1CN0
+V^cbABK4R@U<b`oTOH`fj@0
+Z1 dC:\altera\13.0sp1\projectIC\CE213\DoAn\RISCV_SingleCycle\simulation\modelsim
+w1703783260
+8C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ALU.v
+FC:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ALU.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle -O0
+n@a@l@u
+!i10b 1
+!s100 foh@coVB1dMANkYKoQcb;1
+!s85 0
+!s108 1703789106.947000
+!s107 C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle|C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ALU.v|
+!s101 -O0
+vALUControl
+I7MU1>[O9kZj;>J6izVBdM2
+V97D>oBYlG`BE4cLEb=[7K1
+R1
+w1703783089
+8C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ALUControl.v
+FC:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ALUControl.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@a@l@u@control
+!i10b 1
+!s100 ;YNPeF7Wd6h9;87eXD@Tl0
+!s85 0
+!s108 1703789106.923000
+!s107 C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ALUControl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle|C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ALUControl.v|
+!s101 -O0
+vBranchComp
+I7hCT5gUhT9BJ5Q^WdXZYA1
+Vg;fhI3Nb7Wl]1<j3_bcIO3
+R1
+w1703789064
+8C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/BranchComp.v
+FC:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/BranchComp.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@branch@comp
+!i10b 1
+!s100 C[6zBhdS3c3kN7jEKezzj3
+!s85 0
+!s108 1703789107.236000
+!s107 C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/BranchComp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle|C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/BranchComp.v|
+!s101 -O0
+vControlUnit
+IlMU3iPf1ToXlE3I3ZYCT`2
+VUhQ<8hTmKfBR^[AjkJhBT2
+R1
+w1703783746
+8C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ControlUnit.v
+FC:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ControlUnit.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@control@unit
+!i10b 1
+!s100 3z>36TU4Q]XT6k7l62IjO0
+!s85 0
+!s108 1703789107.126000
+!s107 C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ControlUnit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle|C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ControlUnit.v|
+!s101 -O0
+vDataMemory
+II9I8WcHACdS6`0:aS2gnN1
+VQB3ZgPG;TJ8Rk;eZ@89DY0
+R1
+w1703789020
+8C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/DataMemory.v
+FC:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/DataMemory.v
+L0 1
+R2
+r1
+31
+R3
+n@data@memory
+R4
+!i10b 1
+!s100 3_Rj[n:DQ[O>iW;=Jd4Uh2
+!s85 0
+!s108 1703789106.884000
+!s107 C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/DataMemory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle|C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/DataMemory.v|
+!s101 -O0
+vDatapath
+IJPzEmN;@Y5^Oh`N?[W64C2
+VZFElL3fcVE]^025FB`^df0
+R1
+w1703783913
+8C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/Datapath.v
+FC:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/Datapath.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@datapath
+!i10b 1
+!s100 o7AQ1<13?AJBcZh04QEAI3
+!s85 0
+!s108 1703789107.158000
+!s107 C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/Datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle|C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/Datapath.v|
+!s101 -O0
+vFullDatapath
+IVoQ7]H>b7@H?f6zjhIEIB1
+Vd]0oNIV_S??^BXfKg:=D;1
+R1
+w1703784258
+8C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/FullDatapath.v
+FC:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/FullDatapath.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@full@datapath
+!i10b 1
+!s100 bDOWP@L9^:3agj8Sd81=k3
+!s85 0
+!s108 1703789107.268000
+!s107 C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/FullDatapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle|C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/FullDatapath.v|
+!s101 -O0
+vImmediateGenerator
+IXTAF_GSTA939Fj<E@QLVF3
+VamFacPm?Y>;z3Y[CEaFLa2
+R1
+w1703785151
+8C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ImmediateGenerator.v
+FC:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ImmediateGenerator.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@immediate@generator
+!i10b 1
+!s100 l1bW[P=]DJ3hzGOVSfWd]2
+!s85 0
+!s108 1703789107.057000
+!s107 C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ImmediateGenerator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle|C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/ImmediateGenerator.v|
+!s101 -O0
+vMux21_32bit
+IIX40Tdb?4PNIKjbOj=0Fg2
+VJQMO^HkZ<@CI>eLO>5dzN0
+R1
+w1703785176
+8C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/Mux21_32bit.v
+FC:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/Mux21_32bit.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@mux21_32bit
+!i10b 1
+!s100 _;3TJNDdW61:]G60KASe^0
+!s85 0
+!s108 1703789107.088000
+!s107 C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/Mux21_32bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle|C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/Mux21_32bit.v|
+!s101 -O0
+vPC
+IBSd5o>zXb2K?078EY>]lV0
+Vkk<jLC0DoakEa`48Rm^C^3
+R1
+w1703784054
+8C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/PC.v
+FC:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/PC.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@p@c
+!i10b 1
+!s100 `12U4Z3=R[b]AGh9j7n_B3
+!s85 0
+!s108 1703789107.205000
+!s107 C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/PC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle|C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/PC.v|
+!s101 -O0
+vRegisterFile
+Img4fgU=<QXP0gi;oD=Z:E1
+VJ;g`GHM[9HC6BiT^ChlLJ3
+R1
+w1703785120
+8C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RegisterFile.v
+FC:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RegisterFile.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@register@file
+!i10b 1
+!s100 ]:[jgzk6U5mJ6RP69>ZlX0
+!s85 0
+!s108 1703789106.994000
+!s107 C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RegisterFile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle|C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RegisterFile.v|
+!s101 -O0
+vRISCV_SingleCycle
+IN9T]_=ZMh:Di_XmdBXCnT3
+VabAQV]7<n[<`HYS4Idcz_2
+R1
+w1703785132
+8C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RISCV_SingleCycle.v
+FC:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RISCV_SingleCycle.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@r@i@s@c@v_@single@cycle
+!i10b 1
+!s100 MAEcUY8Vb<;6K;i]U1>0J0
+!s85 0
+!s108 1703789107.025000
+!s107 C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RISCV_SingleCycle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle|C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RISCV_SingleCycle.v|
+!s101 -O0
+vRISCV_SingleCycle_testbench
+!i10b 1
+!s100 Bi7A:TlKgN`3TIZ_129<32
+IM9;[;6h<IW;WTRmBd]eL82
+V^_MWm4d8>A0YflZ^NilYo0
+R1
+w1703786616
+8C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RISCV_SingleCycle_testbench.v
+FC:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RISCV_SingleCycle_testbench.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1703789107.299000
+!s107 C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RISCV_SingleCycle_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle|C:/altera/13.0sp1/projectIC/CE213/DoAn/RISCV_SingleCycle/RISCV_SingleCycle_testbench.v|
+!s101 -O0
+R3
+R4
+n@r@i@s@c@v_@single@cycle_testbench
